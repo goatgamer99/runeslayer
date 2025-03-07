@@ -12,7 +12,7 @@ local Window = Library:CreateWindow({
     MenuFadeTime = 0.4
 })
 
-getgenv().LegitTab = Window:AddTab('Main')
+getgenv().MainTab = Window:AddTab('Main')
 getgenv().MiscTab = Window:AddTab('Misc')
 
 local MiscellaneousGroup = getgenv().MiscTab:AddRightGroupbox('Miscellaneous')
